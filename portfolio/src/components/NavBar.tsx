@@ -2,7 +2,7 @@ export default function NavBar(){
     const me="{JC}"
     return (
         <div className="navbar">
-<div className="bg-black text-white flex items-center justify-between py-4 px-24">
+<div className="bg-black text-white flex items-center justify-between py-3 px-24">
 <div className="font-bold text-2xl">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="40" height="40">
   <defs>
@@ -41,6 +41,7 @@ export default function NavBar(){
     <span>Blog</span>
     <span>Projects</span>
     <span>Contact</span>
+   
 </div>
 
 </div>
