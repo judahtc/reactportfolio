@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './components/About'
+import Certs from './components/Certs'
 import Devider from './components/Divider'
 import HeroSection from './components/HeroSection'
 import MyPic from './components/MyPic'
@@ -26,6 +27,8 @@ function App() {
 </div>
 
 <Devider/>
+
+<Certs/>
 
 
 
