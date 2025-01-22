@@ -4,7 +4,7 @@ export default function Certs(){
         <div className="mx-28">
             <div className="mb-10"></div>
            <span  className="font-bold text-xl ">🏅 Certifications</span> 
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-1 items-start mt-10"> <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9"> <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
 
 
         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
@@ -46,7 +46,7 @@ export default function Certs(){
         
         </div>
         <div className="flex flex-col items-start"><span className="font-semibold">01</span><span
-            >AWS Certified Developer - Associate</span></div>
+            >AWS Certified Developer - Associate <span style={{color:"white"}}>- Associate</span></span></div>
 
             <div className="absolute top-2 right-2">
                 
