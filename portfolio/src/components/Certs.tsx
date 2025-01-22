@@ -4,7 +4,7 @@ export default function Certs(){
         <div className="mx-28">
             <div className="mb-10"></div>
            <span  className="font-bold text-xl ">🏅 Certifications</span> 
-           <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-1/4 mt-10 relative">
+          <div className="flex items-start space-x-2 mt-10"> <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-1/4  relative">
 
 
         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
@@ -200,7 +200,7 @@ export default function Certs(){
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
             </div>
       </div>
-        
+      </div>
         </div>
         </>
     )
