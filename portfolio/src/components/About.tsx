@@ -46,7 +46,7 @@ export default function About() {
         style={globalStyle}
       >
         <div className="title font-extrabold text-2xl mb-5">⚡About Me</div>
-        <div className="w-11/12 ml-3 mb-3 text-lg">
+        <div className="w-11/12 ml-3 mb-3 text-md">
           <p className="mb-3">
             I am a passionate software Engineer experienced in architecturing,
             designing and developing Enterprice Web Applications since 2020. I
