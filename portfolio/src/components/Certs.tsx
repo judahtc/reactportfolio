@@ -4,7 +4,9 @@ export default function Certs(){
         <div className="mx-28">
             <div className="mb-10"></div>
            <span  className="font-bold text-xl ">🏅 Certifications</span> 
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9"> <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9"> 
+            
+            <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
 
 
         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
@@ -50,10 +52,10 @@ export default function Certs(){
 
             <div className="absolute top-2 right-2">
                 
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+           <a href="https://www.credly.com/badges/3c43d1bf-a2ce-4a6b-bda7-66b9b567cfad" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a> 
             </div>
       </div>
-           <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
+           <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
 
 
         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
@@ -94,16 +96,16 @@ export default function Certs(){
     </svg>
         
         </div>
-        <div className="flex flex-col items-start"><span className="font-semibold">01</span><span
+        <div className="flex flex-col items-start"><span className="font-semibold">02</span><span
             >AWS Certified SysOps Administrator - Associate</span></div>
 
             <div className="absolute top-2 right-2">
                 
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+            <a href="https://www.credly.com/badges/1b9e5b16-4fea-4c38-b600-ff4be49c8cc1" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
             </div>
       </div>
 
-      <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
+      <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
 
 
 <div className="bg-slate-100 p-3 rounded-[0.25rem]">
@@ -144,15 +146,15 @@ d="M285.5 127c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4
 </svg>
 
 </div>
-<div className="flex flex-col items-start"><span className="font-semibold">01</span><span
+<div className="flex flex-col items-start"><span className="font-semibold">03</span><span
     >AWS Certified Solutions Architect - Associate</span></div>
 
     <div className="absolute top-2 right-2">
         
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+    <a href="https://www.credly.com/badges/0d759fe8-7454-4ed3-b06c-5257267ce4ac" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
     </div>
 </div>
-           <div className="cert border border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
+           <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
 
 
         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
@@ -200,12 +202,12 @@ d="M285.5 127c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4
     </svg>
         
         </div>
-        <div className="flex flex-col items-start"><span className="font-semibold">01</span><span
+        <div className="flex flex-col items-start"><span className="font-semibold">04</span><span
             >Microsoft Certified Azure Fundamentals</span></div>
 
             <div className="absolute top-2 right-2">
                 
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+            <a href="https://www.credly.com/badges/d677095e-0afb-4e5c-94e0-aff75029560a" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
             </div>
       </div>
        

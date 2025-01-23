@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './components/About'
+import Articles from './components/Articles'
 import Certs from './components/Certs'
 import Devider from './components/Divider'
 import HeroSection from './components/HeroSection'
@@ -29,6 +30,11 @@ function App() {
 <Devider/>
 
 <Certs/>
+
+<Devider/>
+
+
+<Articles/>
 
 
 

@@ -15,6 +15,7 @@ export default function HeroSection(){
         <p className="mt-7 w-3/4 text-2xl"><span className=" font-bold">Software Engineer.</span><span> A full stack Software Engineer with robust experience in AWS cloud engineering</span></p>
        
         <p className="mt-7"> 🚀 Majoring in Enterprise Systems Development(FastAPI+ (React/Angular))</p>
+        <p className="mt-2"> 🌐 AWS specialist and technical blogger</p>
         <p className="mt-2"> ⚡ Senior Software Engineer at <a className="text-blue-600" href="https://claxonactuaries.com/" target="_blank">Claxon Actuaries</a>.</p>
         
         <div className=" flex items-center space-x-2  mt-6 font-bold">
