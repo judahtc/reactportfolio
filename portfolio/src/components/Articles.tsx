@@ -3,6 +3,8 @@ export default function Articles(){
         <> 
 <div className="mx-28 mt-12 ">
 
+    {/* <div className="text-center text-5xl font-bold my-24 mt-32">📖 Blogs</div> */}
+
     <div className="flex items-center justify-between my-5"><span className="text-xl font-bold">📰 Articles</span> <a target="_blank" href="https://awsfordevelopers.hashnode.dev/" className="text-green-500 text-base">View all articles →</a></div>
 
         <div className="flex mb-10 space-x-7">    

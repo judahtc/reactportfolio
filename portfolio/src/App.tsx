@@ -4,6 +4,7 @@ import About from './components/About'
 import Articles from './components/Articles'
 import Certs from './components/Certs'
 import Devider from './components/Divider'
+import Experties from './components/Experties'
 import HeroSection from './components/HeroSection'
 import MyPic from './components/MyPic'
 import NavBar from './components/NavBar'
@@ -31,7 +32,7 @@ function App() {
 
 <Certs/>
 
-<Devider/>
+<Experties/>
 
 
 <Articles/>
