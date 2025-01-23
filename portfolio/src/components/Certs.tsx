@@ -1,9 +1,11 @@
 export default function Certs(){
     return(
         <>
-        <div className="mx-28 -mb-10">
+        <div className="mt-28 mx-28 -mb-10">
             <div className="mb-8"></div>
-           <span  className="font-bold text-xl ">🏅 Certifications</span> 
+           <p  className="font-bold text-5xl text-center mx-auto ">🏅 Certifications</p> 
+           <div className="mb-16"></div>
+
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9"> 
             
             <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
