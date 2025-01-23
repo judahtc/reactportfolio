@@ -1,8 +1,8 @@
 export default function Certs(){
     return(
         <>
-        <div className="mx-28">
-            <div className="mb-10"></div>
+        <div className="mx-28 -mb-10">
+            <div className="mb-8"></div>
            <span  className="font-bold text-xl ">🏅 Certifications</span> 
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9"> 
             
@@ -47,7 +47,7 @@ export default function Certs(){
     </svg>
         
         </div>
-        <div className="flex flex-col items-start"><span className="font-semibold">01</span><span
+        <div className="flex flex-col items-start"><span className="font-semibold">01</span><span 
             >AWS Certified Developer - Associate <span style={{color:"white"}}>- Associate</span></span></div>
 
             <div className="absolute top-2 right-2">
