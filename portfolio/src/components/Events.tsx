@@ -39,7 +39,7 @@ export default function Events() {
                 </div>
 
                 <img
-                    className=""
+                    className="rounded-e-lg"
                     style={{ height: "20rem", width: "14rem" }}
                     src="\src\assets\images\amazong.jpg"
                 ></img>

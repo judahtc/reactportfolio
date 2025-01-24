@@ -21,16 +21,17 @@ function App() {
             <div className="fixed w-full z-50">
                 <NavBar></NavBar>
             </div>
-            <div className="flex items-center ">
+            <div className="flex items-center shadow-sm pb-32">
                 <HeroSection />
                 <SkillsPic />
             </div>
-            <Devider />
 
-            <div className="flex items-center ">
+            <div className="flex items-center   ">
                 <About />
                 <MyPic />
             </div>
+
+            <Devider />
 
             <Certs />
 

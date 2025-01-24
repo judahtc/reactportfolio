@@ -1,7 +1,7 @@
 export default function Experties() {
     return (
         <div className="">
-            <div className="experties  mt-24  mx-6 mb-20  bg-gray-50  px-16 py-12 rounded text-gray-700 relative">
+            <div className="experties  mt-24  mx-6 mb-20  bg-gray-50  px-16 py-12 rounded-lg text-gray-700 relative">
                 <div className="absolute right-2 top-2 text-md text-gray-400 ">
                     <a href="/skills" className="flex items-center space-x-2">
                         <span>Explore</span>
