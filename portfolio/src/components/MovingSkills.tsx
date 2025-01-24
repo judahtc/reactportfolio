@@ -1,9 +1,9 @@
 const MovingSkills = () => {
     return (
-        <div className="bg-gray-50 py-32 text-gray-400 mt-16">
+        <div className="bg-gray-50 py-36 text-gray-400 mt-24 shadow-sm ">
             <div className="mx-auto w-3/4 container flex flex-col items-center space-y-16">
                 <div className="flex flex-col items-center">
-                    <span className=" text-4xl mb-3">
+                    <span className=" text-4xl mb-3 -mt-6">
                         Some of the tools l use
                     </span>
                     <div>
