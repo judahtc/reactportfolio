@@ -7,7 +7,7 @@ export default function HeroSection(){
     return (
         <>
        
-        <div className="ml-24 mt-24" style={globalStyle}>
+        <div className="ml-28 mt-32" style={globalStyle}>
 
         <p className="text-3xl font-bold text-green-700" >Hey there, l'm</p>
         <span className="text-6xl font-extrabold text-gray-700">Judah Chisare</span>

@@ -11,7 +11,7 @@ export default function Work(){
 
 
 
-            <div className="flex items-center mt-5 w-full space-x-6">
+            <div className="flex items-center mt-5 w-full space-x-12">
                 <div className=" border border-gray-100 rounded">
                     <div><img className="" src="\src\assets\images\patients_visitor.jpg"></img></div>
                    <div className="bg-gray-50 -mt-2">
@@ -56,7 +56,7 @@ export default function Work(){
                     </div>
                 </div>
                 </div>
-                <div className="space-y-4">
+                <div className="space-y-12">
                 <div className=" border border-gray-100 rounded">
                     <div><img className="" src="\src\assets\images\patients_visitor.jpg"></img></div>
                    <div className="bg-gray-50 -mt-2">
