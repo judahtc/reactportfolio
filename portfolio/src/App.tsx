@@ -17,8 +17,9 @@ function App() {
 
   return (
     <>
-    <NavBar></NavBar>
-
+    <div className='fixed w-full z-50'>
+    <NavBar ></NavBar>
+    </div>
 <div className='flex items-center '>
 <HeroSection/>
 <SkillsPic/>
