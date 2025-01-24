@@ -9,18 +9,26 @@ import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import MyPic from './components/MyPic'
 import NavBar from './components/NavBar'
+import Skills from './components/Skills'
 import SkillsPic from './components/SkillsPic'
+
 import Work from './components/Work'
+
+
+
 
 
 function App() {
 
   return (
     <>
+    
     <div className='fixed w-full z-50'>
     <NavBar ></NavBar>
     </div>
 <div className='flex items-center '>
+
+
 <HeroSection/>
 <SkillsPic/>
 </div>
@@ -42,7 +50,10 @@ function App() {
 
 <Work/>
 
+<Skills/>
+
 <Footer/>
+
 
 
     

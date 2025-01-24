@@ -39,6 +39,8 @@ export default function About() {
 
   return (
     <>
+
+
       <div
         className="ml-40 mr-20 mt-24 w-1/2 opacity-0 transform translate-y-10" // Added opacity and translation
         id="animatedText"
