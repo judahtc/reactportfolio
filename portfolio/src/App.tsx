@@ -3,6 +3,7 @@ import About from "./components/About";
 import Articles from "./components/Articles";
 import Certs from "./components/Certs";
 import Devider from "./components/Divider";
+import Events from "./components/Events";
 import Experties from "./components/Experties";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
@@ -36,9 +37,11 @@ function App() {
             <Experties />
 
             <Articles />
+
             <MovingSkills />
             <Work />
-
+            <Devider />
+            <Events />
             <Footer />
         </>
     );
