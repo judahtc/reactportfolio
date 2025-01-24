@@ -1,6 +1,15 @@
 export default  function Experties(){
     return(
-        <div className="experties mx-8 mb-20 mt-24 bg-gray-50  px-16 py-8 rounded text-gray-700">
+
+        <div className="">
+            
+        <div className="experties  mt-24  mx-8 mb-20  bg-gray-50  px-16 py-8 rounded text-gray-700 relative">
+        <div className="absolute right-2 top-2 text-md text-gray-400 ">
+                <a href="/skills" className="flex items-center space-x-2"><span>Explore</span> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+            </div>
+            
            <div className="flex justify-between">
             <div className="one flex flex-col space-y-1 items-center hover:-mt-3 ">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-monitor-smartphone"><path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"/><path d="M10 19v-3.96 3.15"/><path d="M7 19h5"/><rect width="6" height="10" x="16" y="12" rx="2"/></svg>    
@@ -29,6 +38,8 @@ export default  function Experties(){
             </div>
             
             </div> 
+       
+        </div>
         </div>
     )
 

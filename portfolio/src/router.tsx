@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Skills from "./components/Skills";
 import App from "./App";
+import MovingSkills from "./components/MovingSkills";
 
  const router=[{
     element:<Skills/>,
@@ -10,6 +11,10 @@ import App from "./App";
  {
     element:<App/>,
     path:"/",
+ },
+ {
+    element:<MovingSkills/>,
+    path:"/tools",
  }
 ]
 

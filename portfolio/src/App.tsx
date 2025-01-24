@@ -50,7 +50,7 @@ function App() {
 
 <Work/>
 
-<Skills/>
+
 
 <Footer/>
 
