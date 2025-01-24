@@ -7,7 +7,7 @@ export default function Articles(){
 
     <div className="flex items-center justify-between my-5"><span className="text-xl font-bold">📰 Articles</span> <a target="_blank" href="https://awsfordevelopers.hashnode.dev/" className="text-green-500 text-base">View all articles →</a></div>
 
-        <div className="flex mb-10 space-x-7">    
+        <div className="flex mb-10 space-x-7 text-gray-600">    
 
                 <div className=" w-2/3 ">
             <div className="articles ">

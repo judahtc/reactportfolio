@@ -10,7 +10,7 @@ export default function HeroSection(){
         <div className="ml-24 mt-24" style={globalStyle}>
 
         <p className="text-3xl font-bold text-green-700" >Hey there, l'm</p>
-        <span className="text-6xl font-extrabold">Judah Chisare</span>
+        <span className="text-6xl font-extrabold text-gray-700">Judah Chisare</span>
 
         <p className="mt-7 w-3/4 text-2xl"><span className=" font-bold">Software Engineer.</span><span> A full stack Software Engineer with robust experience in AWS cloud engineering</span></p>
        

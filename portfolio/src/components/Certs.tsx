@@ -3,7 +3,7 @@ export default function Certs(){
         <>
         <div className="mt-28 mx-32 ">
             <div className="mb-8"></div>
-           <p  className="font-bold text-5xl text-center mx-auto ">🏅 Certifications</p> 
+           <p  className="font-bold text-5xl text-center mx-auto text-gray-600">🏅 Certifications</p> 
            <div className="mb-16"></div>
 
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9"> 

@@ -33,9 +33,8 @@ export default function About() {
     }
   }, []); // Empty dependency array ensures this effect runs only once
 
-  const globalStyle = {
-    fontFamily:
-      'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+  const localstyle = {
+    fontFamily: 'Raleway, Arial, sans-serif',
   };
 
   return (
@@ -43,10 +42,10 @@ export default function About() {
       <div
         className="ml-40 mr-20 mt-24 w-1/2 opacity-0 transform translate-y-10" // Added opacity and translation
         id="animatedText"
-        style={globalStyle}
+        style={localstyle}
       >
-        <div className="title font-extrabold text-2xl mb-5">⚡About Me</div>
-        <div className="w-11/12 ml-3 mb-3 text-md">
+        <div className="title font-extrabold text-2xl mb-5 text-gray-700">⚡About Me</div>
+        <div className="w-11/12 ml-3 mb-3 text-md text-gray-700">
           <p className="mb-3">
             I am a passionate software Engineer experienced in architecturing,
             designing and developing Enterprice Web Applications since 2020. I
