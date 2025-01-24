@@ -2,9 +2,12 @@ export default function Work(){
     return (
 
         <>
-        <div className="mx-28 mt-12 text-gray-700">
+        <div className="mx-28 mt-40 text-gray-700">
             <div>
-            <div className="font-bold text-xl">📂 Projects</div>
+            <div className="-mb-32"><div className="font-bold text-3xl"> Projects</div>
+            <div className="text-lg text-gray-500">Here's some of my projects that I have worked on.</div>
+            <a href="" className="text-green-500 font-semibold text-lg">Explore more →</a>
+            </div>
 
 
 
@@ -53,8 +56,8 @@ export default function Work(){
                     </div>
                 </div>
                 </div>
-                <div>
-                <div className=" w-1/2 border border-gray-100 rounded">
+                <div className="space-y-4">
+                <div className=" border border-gray-100 rounded">
                     <div><img className="" src="\src\assets\images\patients_visitor.jpg"></img></div>
                    <div className="bg-gray-50 -mt-2">
                     <div className="mt-2 p-2 mx-2 " >
@@ -98,7 +101,7 @@ export default function Work(){
                     </div>
                 </div>
                 </div>
-                <div className=" w-1/2 border border-gray-100 rounded">
+                <div className=" border border-gray-100 rounded">
                     <div><img className="" src="\src\assets\images\patients_visitor.jpg"></img></div>
                    <div className="bg-gray-50 -mt-2">
                     <div className="mt-2 p-2 mx-2 " >
