@@ -1,14 +1,14 @@
 export default function Certs() {
     return (
         <>
-            <div className=" mx-44 mt-20">
+            <div className=" mx-60 mt-20">
                 <div className="mb-8"></div>
                 <p className="font-bold text-5xl text-center mx-auto text-gray-600">
                     🏅 Certifications
                 </p>
                 <div className="mb-16"></div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9">
                     <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
                         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
                             <svg
