@@ -26,7 +26,7 @@ export default function Experties() {
     }, []); // Empty dependency array ensures this effect runs only once
 
     useEffect(() => {
-        const animatedTextFour = document.getElementById("four");
+        const animatedTextFour = document.getElementById("animatedTextFour");
 
         // Check if the element exists
         if (animatedTextFour) {
@@ -75,10 +75,7 @@ export default function Experties() {
                     </a>
                 </div>
 
-                <div
-                    id="animatedTextFour"
-                    className="flex animate-fade-in justify-between"
-                >
+                <div id="animatedTextFour" className="flex justify-between ">
                     <div className="one  flex flex-col space-y-1 items-center hover:-mt-3 ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
