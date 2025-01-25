@@ -1,4 +1,55 @@
+import { useEffect } from "react";
 export default function Experties() {
+    useEffect(() => {
+        const animatedTextOne = document.getElementById("one");
+
+        // Check if the element exists
+        if (animatedTextOne) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        // Apply the fade-in animation when the element is in view
+                        animatedTextOne.classList.add("animate-fade-in");
+                        observer.disconnect(); // Stop observing once animation has been triggered
+                    }
+                });
+            });
+
+            // Start observing the element
+            observer.observe(animatedTextOne);
+
+            // Cleanup observer when component is unmounted
+            return () => {
+                observer.disconnect();
+            };
+        }
+    }, []); // Empty dependency array ensures this effect runs only once
+
+    useEffect(() => {
+        const animatedTextFour = document.getElementById("four");
+
+        // Check if the element exists
+        if (animatedTextFour) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        // Apply the fade-in animation when the element is in view
+                        animatedTextFour.classList.add("animate-fade-in");
+                        observer.disconnect(); // Stop observing once animation has been triggered
+                    }
+                });
+            });
+
+            // Start observing the element
+            observer.observe(animatedTextFour);
+
+            // Cleanup observer when component is unmounted
+            return () => {
+                observer.disconnect();
+            };
+        }
+    }, []); // Empty dependency array ensures this effect runs only once
+
     return (
         <div className="">
             <div className="experties  mt-24  mx-6 mb-20  bg-gray-50  px-16 py-12 rounded-lg text-gray-700 relative">
@@ -24,8 +75,11 @@ export default function Experties() {
                     </a>
                 </div>
 
-                <div className="flex justify-between">
-                    <div className="one flex flex-col space-y-1 items-center hover:-mt-3 ">
+                <div
+                    id="animatedTextFour"
+                    className="flex animate-fade-in justify-between"
+                >
+                    <div className="one  flex flex-col space-y-1 items-center hover:-mt-3 ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="48"
@@ -50,7 +104,7 @@ export default function Experties() {
                             <i>Angular/React</i>
                         </div>
                     </div>
-                    <div className="one flex hover:-mt-3 flex-col space-y-1 items-center">
+                    <div className="two flex hover:-mt-3 flex-col space-y-1 items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="48"
@@ -74,7 +128,7 @@ export default function Experties() {
                             <i>Python/Node.Js/.Net Core</i>
                         </div>
                     </div>
-                    <div className="one flex hover:-mt-3 flex-col space-y-1 items-center">
+                    <div className="three flex hover:-mt-3 flex-col space-y-1 items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="48"
@@ -96,7 +150,7 @@ export default function Experties() {
                             <i>DevOps/ Serverless/Scalibility</i>
                         </div>
                     </div>
-                    <div className="one flex hover:-mt-3 flex-col space-y-1 items-center">
+                    <div className="four flex hover:-mt-3 flex-col space-y-1 items-center ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="48"
