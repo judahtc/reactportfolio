@@ -27,6 +27,24 @@ body {
     }
 }
 
+.spin {
+    animation: var(--animate-spin); /* spin 1s linear infinite */
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideRightToLeft {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(-1%); /* End off-screen to the left */
+    }
+}
+
 @keyframes blink {
     0% {
         opacity: 1;
@@ -134,5 +152,9 @@ body {
     }
     body {
         @apply bg-background text-foreground;
+    }
+
+    .myself {
+        animation: slideRightToLeft 2s linear; /* Animation properties */
     }
 }
