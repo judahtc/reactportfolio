@@ -64,7 +64,7 @@ export default function NavBar() {
 
                     <span>Blog</span>
                     <span>Projects</span>
-                    <span>Contact</span>
+                    <span></span>
                 </div>
             </div>
         </div>
