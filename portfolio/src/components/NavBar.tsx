@@ -64,7 +64,6 @@ export default function NavBar() {
 
                     <span>Blog</span>
                     <span>Projects</span>
-                    <span></span>
                 </div>
             </div>
         </div>
