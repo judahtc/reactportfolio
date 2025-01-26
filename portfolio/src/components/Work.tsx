@@ -1,7 +1,32 @@
+import { useEffect } from "react";
+
 export default function Work() {
+    useEffect(() => {
+        const animatedTextOne = document.getElementById("one");
+
+        if (animatedTextOne) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        animatedTextOne.classList.add("animate-fade-in");
+                        observer.disconnect();
+                    }
+                });
+            });
+
+            // Start observing the element
+            observer.observe(animatedTextOne);
+
+            // Cleanup observer when component is unmounted
+            return () => {
+                observer.disconnect();
+            };
+        }
+    }, []); // Empty dependency array ensures this effect runs only once
+
     return (
         <>
-            <div className="mx-28 mt-40 text-gray-700">
+            <div className="mx-28 mt-40 text-gray-700 " id="one">
                 <div>
                     <div className="-mb-32">
                         <div className="font-bold text-3xl"> Projects</div>
