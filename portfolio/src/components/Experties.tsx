@@ -3,14 +3,12 @@ export default function Experties() {
     useEffect(() => {
         const animatedTextOne = document.getElementById("one");
 
-        // Check if the element exists
         if (animatedTextOne) {
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        // Apply the fade-in animation when the element is in view
                         animatedTextOne.classList.add("animate-fade-in");
-                        observer.disconnect(); // Stop observing once animation has been triggered
+                        observer.disconnect();
                     }
                 });
             });
