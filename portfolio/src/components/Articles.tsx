@@ -50,10 +50,10 @@ export default function Articles() {
 
     return (
         <>
-            <div id="one" className="mx-40 mt-12 ">
+            <div id="one" className="lg:mx-40 md:mx-40 mx-7 mt-12 ">
                 {/* <div className="text-center text-5xl font-semibold my-24 mt-32">📖 Blogs</div> */}
 
-                <div className="flex items-center justify-between my-5">
+                <div className="flex  items-center justify-between my-5">
                     <span className="text-xl font-bold">📰 Articles</span>{" "}
                     <a
                         target="_blank"
@@ -64,8 +64,11 @@ export default function Articles() {
                     </a>
                 </div>
 
-                <div className="flex mb-10 space-x-7 text-gray-600">
-                    <div className=" w-2/3 cursor-pointer" onClick={article1}>
+                <div className="flex lg:flex-row md:flex-row flex-col mb-10 lg:space-x-7 md:space-x-7 space-y-3 md:space-y-0 lg:space-y-0 text-gray-600">
+                    <div
+                        className=" lg:w-2/3 md:w-2/3 cursor-pointer"
+                        onClick={article1}
+                    >
                         <div className="articles ">
                             <div className="one  border border-gray-200  py-4  px-4  rounded-lg flex flex-col items-center">
                                 <div className="">
