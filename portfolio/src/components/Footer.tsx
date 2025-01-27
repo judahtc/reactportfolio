@@ -27,11 +27,11 @@ export default function Footer() {
     return (
         <>
             <div
-                className="container mx-auto -300 w-1/2 p-4 mt-32 mb-32"
+                className="container mx-auto w-4/5 lg:w-1/2 md:w-1/2 p-4 mt-32 mb-32"
                 id="footer"
             >
                 <div className="flex flex-col items-center">
-                    <div className="font-bold  text-5xl  mb-7">
+                    <div className="font-bold  lg:text-5xl md:text-5xl text-3xl  mb-7">
                         Keep In Touch
                     </div>
                     <div className="w-2/3 text-center">
@@ -43,7 +43,7 @@ export default function Footer() {
                         , l am your guy.
                     </div>
                     <div>
-                        <div className=" flex items-center space-x-2  mt-6 font-semibold">
+                        <div className=" flex items-center space-x-2  mt-6 font-semibold lg:text-base md:text-base text-sm">
                             <div className="linkedin bg-gray-100 hover:bg-gray-200 px-2 py-[0.4rem] pr-3  rounded">
                                 <a
                                     target="_blank"
