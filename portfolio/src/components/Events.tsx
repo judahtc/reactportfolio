@@ -26,7 +26,7 @@ export default function Events() {
 
     return (
         <div className=" text-gray-700">
-            <div className="flex space-x-8 mx-32 mt-8 rounded-md shadow-sm ">
+            <div className="flex space-x-8 md:mx-32 lg:mx-32 mx-8 mt-8 rounded-md shadow-sm ">
                 <img
                     className="rounded-s-lg"
                     style={{ height: "20rem", width: "20rem" }}

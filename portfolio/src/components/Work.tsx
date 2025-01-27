@@ -28,21 +28,24 @@ export default function Work() {
         <>
             <div className="lg:mx-28 md:mx-28 mt-40 text-gray-700 " id="one">
                 <div>
-                    <div className="-mb-32">
-                        <div className="font-bold text-3xl"> Projects</div>
-                        <div className="text-lg text-gray-500">
+                    <div className="lg:-mb-32 md:-mb-32 md:mx-0 lg:mx-0 mx-8">
+                        <div className="font-bold lg:text-3xl md:text-3xl">
+                            {" "}
+                            Projects
+                        </div>
+                        <div className="lg:text-lg md:text-lg text-gray-500">
                             Here's some of my projects that I have worked on.
                         </div>
                         <a
                             href=""
-                            className="text-green-500 font-semibold text-lg"
+                            className="text-green-500 font-semibold lg:text-lg md:text-lg text-base"
                         >
                             Explore more →
                         </a>
                     </div>
 
-                    <div className="flex lg:flex-row md:flex-row flex-col items-center mt-5 w-full lg:space-x-12 md:space-x-12 space-x-0">
-                        <div className=" border border-gray-100 rounded-lg">
+                    <div className="flex lg:flex-row md:flex-row flex-col items-center mt-5 w-full lg:space-x-12 md:space-x-12 space-x-0 lg:mx-0 space-y-9 md:space-y-0 lg:space-y-0">
+                        <div className=" border border-gray-100 rounded-lg lg:mx-0 md:mx-0 mx-8">
                             <div>
                                 <img
                                     className="rounded-tl-lg rounded-tr-lg"
@@ -185,7 +188,7 @@ export default function Work() {
                             </div>
                         </div>
                         <div className="space-y-12">
-                            <div className=" border border-gray-100 rounded-lg">
+                            <div className=" border border-gray-100 rounded-lg lg:mx-0 md:mx-0 mx-8">
                                 <div>
                                     <img
                                         className="rounded-tl-lg rounded-tr-lg"
@@ -328,7 +331,7 @@ export default function Work() {
                                     </div>
                                 </div>
                             </div>
-                            <div className=" border border-gray-100 rounded-lg">
+                            <div className=" border border-gray-100 rounded-lg lg:mx-0 md:mx-0 mx-8">
                                 <div>
                                     <img
                                         className="rounded-tl-lg rounded-tr-lg"
