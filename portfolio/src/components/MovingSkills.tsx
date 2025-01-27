@@ -13,7 +13,7 @@ const MovingSkills = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 gap-x-12 gap-y-6">
+                <div className="grid grid-cols-3 lg:grid-cols-8 md:grid-cols-6 gap-x-12 gap-y-6">
                     <div className="aws flex flex-col items-center">
                         <svg
                             width="100"

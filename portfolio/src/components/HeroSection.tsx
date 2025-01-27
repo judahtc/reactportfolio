@@ -35,24 +35,39 @@ export default function HeroSection() {
 
                     <p className="mt-7 text-base ">
                         {" "}
-                        🚀 Majoring in Enterprise Systems Development (FastAPI+
-                        (React/Angular))
+                        <div className="flex space-x-1 items-start">
+                            <span>🚀</span>{" "}
+                            <span>
+                                Majoring in Enterprise Systems Development
+                                (FastAPI+ (React/Angular))
+                            </span>
+                        </div>
                     </p>
                     <p className="mt-2 text-base">
                         {" "}
-                        🌐 AWS specialist and technical blogger
+                        <div className="flex space-x-1 items-start">
+                            <span>🌐</span>
+                            <span> AWS specialist and technical blogger</span>
+                        </div>
                     </p>
                     <p className="mt-2 text-base">
                         {" "}
-                        ⚡ Senior Software Engineer at{" "}
-                        <a
-                            className="text-blue-600"
-                            href="https://claxonactuaries.com/"
-                            target="_blank"
-                        >
-                            Claxon Actuaries
-                        </a>
-                        .
+                        <div className="flex space-x-1 items-start">
+                            {" "}
+                            <span>⚡</span>
+                            <span>
+                                {" "}
+                                Senior Software Engineer at{" "}
+                                <a
+                                    className="text-blue-600"
+                                    href="https://claxonactuaries.com/"
+                                    target="_blank"
+                                >
+                                    Claxon Actuaries
+                                </a>
+                                .
+                            </span>
+                        </div>
                     </p>
 
                     <div className=" flex items-center space-x-2  mt-6 font-bold">

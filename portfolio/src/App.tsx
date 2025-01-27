@@ -52,7 +52,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="flex items-center   ">
+            <div className="flex items-center">
                 <About />
                 <div className="hidden lg:block md:block">
                     <MyPic />

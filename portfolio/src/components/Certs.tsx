@@ -1,7 +1,7 @@
 export default function Certs() {
     return (
         <>
-            <div className=" lg:mx-60 lg:mt-20 md:mx-60 md:mt-20  mx-5 mt-20">
+            <div className=" lg:mx-60 lg:mt-20 md:mx-60 md:mt-20  ml-10  mt-20">
                 <div className="mb-8"></div>
                 <p className="font-bold lg:text-5xl md:text-5xl text-2xl text-center mx-auto text-gray-600">
                     🏅 Certifications
