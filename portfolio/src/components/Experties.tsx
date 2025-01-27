@@ -50,7 +50,7 @@ export default function Experties() {
 
     return (
         <div className="">
-            <div className="experties  mt-24  mx-6 mb-20  bg-gray-50  px-16 py-12 rounded-lg text-gray-700 relative">
+            <div className="experties  mt-24  mx-6 mb-20 px-8 py-12  md:mt-24  md:mx-6 md:mb-20 md:px-16 md:py-12  lg:mt-24  lg:mx-6 lg:mb-20 lg:px-16 lg:py-12  bg-gray-50   rounded-lg text-gray-700 relative">
                 <div className="absolute right-2 top-2 text-md text-gray-400 ">
                     <a href="/skills" className="flex items-center space-x-2">
                         <span>Explore</span>
@@ -73,7 +73,10 @@ export default function Experties() {
                     </a>
                 </div>
 
-                <div id="animatedTextFour" className="flex justify-between ">
+                <div
+                    id="animatedTextFour"
+                    className="grid grid-cols-2 gap-y-10 md:grid-cols-4 lg:grid-cols-4 justify-between"
+                >
                     <div className="one  flex flex-col space-y-1 items-center hover:-mt-3 ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +95,7 @@ export default function Experties() {
                             <path d="M7 19h5" />
                             <rect width="6" height="10" x="16" y="12" rx="2" />
                         </svg>
-                        <div className="font-semibold text-lg">
+                        <div className="font-semibold text-lg ">
                             Front-End Dev
                         </div>
                         <div className="text-sm text-gray-400">
