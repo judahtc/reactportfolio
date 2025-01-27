@@ -47,7 +47,7 @@ export default function Events() {
                     </div>
                 </div>
             </div>
-            <div className="flex space-x-8 mx-32 mt-8 rounded-md shadow-sm  pl-8">
+            <div className="flex space-x-8 lg:mx-32 md:mx-32 mx-8 mt-8 rounded-md shadow-sm  pl-8">
                 <div>
                     <div className=" pt-16">
                         <div className="font-semibold text-2xl">

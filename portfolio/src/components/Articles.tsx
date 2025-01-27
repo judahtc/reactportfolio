@@ -54,7 +54,9 @@ export default function Articles() {
                 {/* <div className="text-center text-5xl font-semibold my-24 mt-32">📖 Blogs</div> */}
 
                 <div className="flex  items-center justify-between my-5">
-                    <span className="text-xl font-bold">📰 Articles</span>{" "}
+                    <span className="lg:text-xl md:text-xl text-lg font-bold">
+                        📰 Articles
+                    </span>{" "}
                     <a
                         target="_blank"
                         href="https://awsfordevelopers.hashnode.dev/"
@@ -76,7 +78,7 @@ export default function Articles() {
                                 </div>
                                 <div className="bg-gray-50 px-4 py-4 rounded-md">
                                     <p
-                                        className="font-semibold text-xl "
+                                        className="font-semibold lg:text-xl md:text-xl text-lg "
                                         style={{ color: "##222222" }}
                                     >
                                         A Guide: Deploying your Node.Js
@@ -100,7 +102,7 @@ export default function Articles() {
                             <div className="articles">
                                 <div className="one  border border-gray-200  py-8  px-8 bg-gray-50 rounded-lg">
                                     <p
-                                        className="font-semibold text-lg"
+                                        className="font-semibold lg:text-xl md:text-xl text-lg"
                                         style={{ color: "##222222" }}
                                     >
                                         A Guide: Deploying your first FastAPI
@@ -120,7 +122,7 @@ export default function Articles() {
                             <div className="articles">
                                 <div className="one  border border-gray-200  py-8  px-8 bg-gray-50 rounded-lg">
                                     <p
-                                        className="font-semibold text-lg"
+                                        className="font-semibold lg:text-xl md:text-xl text-lg"
                                         style={{ color: "##222222" }}
                                     >
                                         {" "}

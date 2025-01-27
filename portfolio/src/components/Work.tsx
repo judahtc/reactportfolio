@@ -26,7 +26,7 @@ export default function Work() {
 
     return (
         <>
-            <div className="mx-28 mt-40 text-gray-700 " id="one">
+            <div className="lg:mx-28 md:mx-28 mt-40 text-gray-700 " id="one">
                 <div>
                     <div className="-mb-32">
                         <div className="font-bold text-3xl"> Projects</div>
@@ -41,7 +41,7 @@ export default function Work() {
                         </a>
                     </div>
 
-                    <div className="flex items-center mt-5 w-full space-x-12">
+                    <div className="flex lg:flex-row md:flex-row flex-col items-center mt-5 w-full lg:space-x-12 md:space-x-12 space-x-0">
                         <div className=" border border-gray-100 rounded-lg">
                             <div>
                                 <img
