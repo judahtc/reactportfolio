@@ -54,7 +54,9 @@ function App() {
 
             <div className="flex items-center   ">
                 <About />
-                <MyPic />
+                <div className="hidden lg:block md:block">
+                    <MyPic />
+                </div>
             </div>
 
             <Devider />
