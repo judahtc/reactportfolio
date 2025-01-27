@@ -1,6 +1,30 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Articles() {
+    const navigate = useNavigate();
+
+    const article1 = () => {
+        // Navigate to the desired URL
+        window.open(
+            "https://awsfordevelopers.hashnode.dev/a-guide-deploying-your-nodejs-application-on-lambda-function-using-docker",
+            "_blank"
+        );
+    };
+    const article2 = () => {
+        // Navigate to the desired URL
+        window.open(
+            "https://awsfordevelopers.hashnode.dev/deploying-your-first-fastapi-application-on-amazon-ec2",
+            "_blank"
+        );
+    };
+    const article3 = () => {
+        // Navigate to the desired URL
+        window.open(
+            "https://awsfordevelopers.hashnode.dev/a-step-to-step-guide-hosting-your-frontend-application-in-amazon-s3",
+            "_blank"
+        );
+    };
     useEffect(() => {
         const animatedTextOne = document.getElementById("one");
 
@@ -41,7 +65,7 @@ export default function Articles() {
                 </div>
 
                 <div className="flex mb-10 space-x-7 text-gray-600">
-                    <div className=" w-2/3 ">
+                    <div className=" w-2/3 cursor-pointer" onClick={article1}>
                         <div className="articles ">
                             <div className="one  border border-gray-200  py-4  px-4  rounded-lg flex flex-col items-center">
                                 <div className="">
@@ -69,7 +93,7 @@ export default function Articles() {
                     </div>
 
                     <div className="flex flex-col items-start space-y-3">
-                        <div className="">
+                        <div className="cursor-pointer" onClick={article2}>
                             <div className="articles">
                                 <div className="one  border border-gray-200  py-8  px-8 bg-gray-50 rounded-lg">
                                     <p
@@ -89,7 +113,7 @@ export default function Articles() {
                                 </div>
                             </div>
                         </div>
-                        <div className=" ">
+                        <div className="cursor-pointer" onClick={article3}>
                             <div className="articles">
                                 <div className="one  border border-gray-200  py-8  px-8 bg-gray-50 rounded-lg">
                                     <p
