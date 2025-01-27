@@ -47,7 +47,7 @@ export default function About() {
                 <div className="title font-extrabold text-2xl mb-5 text-white">
                     About Me
                 </div>
-                <div className="w-11/12 ml-3 mb-3 text-md text-gray-700">
+                <div className="lg:w-11/12 lg:ml-3 lg:mb-3 text-md text-gray-700">
                     <p className="mb-3">
                         I am a passionate software Engineer experienced in
                         architecturing, designing and developing Enterprice Web

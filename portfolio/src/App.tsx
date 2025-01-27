@@ -47,7 +47,9 @@ function App() {
             </div>
             <div className="flex items-center shadow-sm pb-32">
                 <HeroSection />
-                <SkillsPic />
+                <div className="hidden lg:block md:block">
+                    <SkillsPic />
+                </div>
             </div>
 
             <div className="flex items-center   ">

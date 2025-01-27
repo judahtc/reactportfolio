@@ -6,7 +6,10 @@ export default function HeroSection() {
     return (
         <>
             <div className="">
-                <div className="ml-28 mt-32" style={globalStyle}>
+                <div
+                    className="ml-10 mt-24  lg:ml-28 lg:mt-32 md:ml-28 md:mt-32"
+                    style={globalStyle}
+                >
                     <div>
                         <img
                             className="opacity-30 h-20  w-20 -mb-16 -ml-8"
@@ -14,32 +17,32 @@ export default function HeroSection() {
                         ></img>
                     </div>
 
-                    <p className="text-3xl font-bold text-green-700">
+                    <p className="text-xl lg:text-3xl md:text-3xl font-bold text-green-700">
                         Hey there, l'm
                     </p>
-                    <span className="text-6xl font-extrabold text-gray-700 z-50">
+                    <span className="text-3xl lg:text-6xl md:text-6xl font-extrabold text-gray-700 z-50">
                         Judah Chisare
                     </span>
 
-                    <p className="mt-7 w-3/4 text-2xl">
+                    <p className="mt-7 w-3/4 md:w-3/4 lg:w-3/4 text-lg lg:text-2xl md:text-2xl">
                         <span className=" font-bold">Software Engineer.</span>
-                        <span>
+                        <span className="text-base md:text-xl">
                             {" "}
                             A full stack Software Engineer with robust
                             experience in AWS cloud engineering
                         </span>
                     </p>
 
-                    <p className="mt-7">
+                    <p className="mt-7 text-base ">
                         {" "}
-                        🚀 Majoring in Enterprise Systems Development(FastAPI+
+                        🚀 Majoring in Enterprise Systems Development (FastAPI+
                         (React/Angular))
                     </p>
-                    <p className="mt-2">
+                    <p className="mt-2 text-base">
                         {" "}
                         🌐 AWS specialist and technical blogger
                     </p>
-                    <p className="mt-2">
+                    <p className="mt-2 text-base">
                         {" "}
                         ⚡ Senior Software Engineer at{" "}
                         <a
