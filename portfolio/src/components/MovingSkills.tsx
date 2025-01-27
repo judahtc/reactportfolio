@@ -1,7 +1,7 @@
 const MovingSkills = () => {
     return (
-        <div className="bg-gray-50 py-36 text-gray-400 mt-24 shadow-sm ">
-            <div className="mx-auto w-3/4 container flex flex-col items-center space-y-16">
+        <div className="bg-gray-50 md:py-36 md:mt-24 lg:py-36 lg:mt-24 py-20 mt-24 text-gray-400  shadow-sm ">
+            <div className="mx-auto lg:w-3/4 md:w-3/4 container flex flex-col items-center space-y-16">
                 <div className="flex flex-col items-center">
                     <span className=" text-4xl mb-3 -mt-6">
                         Some of the tools l use
@@ -13,7 +13,7 @@ const MovingSkills = () => {
                     </div>
                 </div>
 
-                <div className="flex space-x-12">
+                <div className="grid grid-cols-3 gap-x-12 gap-y-6 overflow-x-auto">
                     <div className="aws flex flex-col items-center">
                         <svg
                             width="100"
