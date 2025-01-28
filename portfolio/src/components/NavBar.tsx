@@ -1,8 +1,9 @@
 export default function NavBar() {
     const me = "{JC}";
+
     return (
         <div className="navbar">
-            <div className="bg-gray-500  text-white flex items-center justify-between py-3 px-24 w-full">
+            <div className="bg-gray-500  text-white flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full">
                 <div className="font-bold text-2xl">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -58,12 +59,39 @@ export default function NavBar() {
                         </text>
                     </svg>
                 </div>
+                <div className="menu lg:hidden md:hidden block">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="34"
+                        height="34"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        className="lucide lucide-menu"
+                    >
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                </div>
+                <div className="hidden lg:block md:block">
+                    <div className="nav-items  lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
+                        <span>Home</span>
 
-                <div className="nav-items space-x-5 font-bold text">
-                    <span>Home</span>
+                        <span>Blog</span>
+                        <span>Projects</span>
+                    </div>
+                </div>
+                <div className="">
+                    <div className="nav-items lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
+                        <span>Home</span>
 
-                    <span>Blog</span>
-                    <span>Projects</span>
+                        <span>Blog</span>
+                        <span>Projects</span>
+                    </div>
                 </div>
             </div>
         </div>
