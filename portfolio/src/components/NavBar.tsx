@@ -1,9 +1,16 @@
+import { useState } from "react";
+
 export default function NavBar() {
     const me = "{JC}";
 
+    const [toggle, SetToggle] = useState(false);
+
+    function toggleFunc() {
+        SetToggle(!toggle);
+    }
     return (
-        <div className="navbar">
-            <div className="bg-gray-500  text-white flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full">
+        <div className="navbar bg-gray-500 relative">
+            <div className="  text-white flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full">
                 <div className="font-bold text-2xl">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +66,10 @@ export default function NavBar() {
                         </text>
                     </svg>
                 </div>
-                <div className="menu lg:hidden md:hidden block">
+                <div
+                    className="menu lg:hidden md:hidden block"
+                    onClick={toggleFunc}
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="34"
@@ -85,15 +95,20 @@ export default function NavBar() {
                         <span>Projects</span>
                     </div>
                 </div>
-                <div className="">
-                    <div className="nav-items lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
-                        <span>Home</span>
+            </div>
 
-                        <span>Blog</span>
-                        <span>Projects</span>
+            {toggle && (
+                <div className="text-white px-4 pb-3 absolute top-0 right-0 w-72 h-96 bg-gray-500 ">
+                    <div className="block lg:hidden md:hidden ">
+                        <div className="nav-items flex flex-col md:font-bold text space-y-5">
+                            <span>Home</span>
+
+                            <span>Blog</span>
+                            <span>Projects</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </div>
     );
 }
