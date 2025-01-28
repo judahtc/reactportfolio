@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function NavBar() {
     const me = "{JC}";
+    const me1 = "{ JC }";
 
     const [toggle, SetToggle] = useState(false);
 
@@ -10,7 +11,7 @@ export default function NavBar() {
     }
     return (
         <div className="navbar bg-gray-500 relative">
-            <div className="  text-white flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full">
+            <div className="  text-white flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full font-bold">
                 <div className="font-bold text-2xl">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -98,8 +99,37 @@ export default function NavBar() {
             </div>
 
             {toggle && (
-                <div className="text-white px-4 pb-3 absolute top-0 right-0 w-72 h-96 bg-gray-500 ">
-                    <div className="block lg:hidden md:hidden ">
+                <div className="text-white px-4 pb-3 absolute top-0 right-0 w-72 h-96 bg-gray-400 rounded-bl-xl ">
+                    <div className="flex items-center justify-between mt-5">
+                        <div className="font-bold">{me1}</div>
+                        <div onClick={toggleFunc}>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="lucide lucide-square-x"
+                            >
+                                <rect
+                                    width="18"
+                                    height="18"
+                                    x="3"
+                                    y="3"
+                                    rx="2"
+                                    ry="2"
+                                />
+                                <path d="m15 9-6 6" />
+                                <path d="m9 9 6 6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <hr className="my-5"></hr>
+                    <div className="block lg:hidden md:hidden font-bold">
                         <div className="nav-items flex flex-col md:font-bold text space-y-5">
                             <span>Home</span>
 
