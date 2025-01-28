@@ -68,7 +68,7 @@ export default function NavBar() {
                     </svg>
                 </div>
                 <div
-                    className="menu lg:hidden md:hidden block"
+                    className="menu lg:hidden md:hidden block cursor-pointer"
                     onClick={toggleFunc}
                 >
                     <svg
@@ -90,19 +90,31 @@ export default function NavBar() {
                 </div>
                 <div className="hidden lg:block md:block">
                     <div className="nav-items  lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
-                        <span>Home</span>
-
-                        <span>Blog</span>
-                        <span>Projects</span>
+                        <a href="#">
+                            {" "}
+                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md">
+                                Home
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md">
+                                Blog
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md">
+                                Projects
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
 
             {toggle && (
-                <div className="text-white px-4 pb-3 absolute top-0 lg:hidden block lg:hidden md:hidden right-0 w-72 h-96 bg-gray-400 rounded-bl-xl slideNav">
+                <div className="text-white px-4 pb-3 absolute top-0 lg:hidden block  md:hidden right-0 w-72 h-96 bg-gray-400 rounded-bl-xl slideNav">
                     <div className="flex items-center justify-between mt-5">
                         <div className="font-bold">{me1}</div>
-                        <div onClick={toggleFunc}>
+                        <div className="cursor-pointer" onClick={toggleFunc}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"

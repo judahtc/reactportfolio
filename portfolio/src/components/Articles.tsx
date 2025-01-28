@@ -1,9 +1,6 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 export default function Articles() {
-    const navigate = useNavigate();
-
     const article1 = () => {
         // Navigate to the desired URL
         window.open(
@@ -131,6 +128,7 @@ export default function Articles() {
                                     </p>
 
                                     <p>
+                                        <br></br>
                                         Sep 25, 2024 ·
                                         <span className="test-sm text-yellow-400">
                                             3 min read
