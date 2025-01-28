@@ -44,6 +44,14 @@ body {
         transform: translateX(-1%); /* End off-screen to the left */
     }
 }
+@keyframes slideRightToLeftSideBar {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(-1%); /* End off-screen to the left */
+    }
+}
 
 @keyframes blink {
     0% {
@@ -163,5 +171,8 @@ body {
 
     .myself {
         animation: slideRightToLeft 2s linear; /* Animation properties */
+    }
+    .slideNav {
+        animation: slideRightToLeftSideBar 240ms linear; /* Animation properties */
     }
 }
