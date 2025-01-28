@@ -192,14 +192,14 @@ export default function Work() {
                                 <div>
                                     <img
                                         className="rounded-tl-lg rounded-tr-lg"
-                                        src="\src\assets\images\patients_visitor.jpg"
+                                        src="\src\assets\images\gate.png"
                                     ></img>
                                 </div>
                                 <div className="bg-gray-50 -mt-2">
                                     <div className="mt-2 p-2 mx-2 ">
                                         <div className="description flex items-center justify-between">
                                             <div className="font-bold text-xl">
-                                                Patients Visits Manager
+                                                Residential Gate Entry System
                                             </div>
                                             <div className="explore ">
                                                 <svg
@@ -335,14 +335,14 @@ export default function Work() {
                                 <div>
                                     <img
                                         className="rounded-tl-lg rounded-tr-lg"
-                                        src="\src\assets\images\patients_visitor.jpg"
+                                        src="\src\assets\images\finance.png"
                                     ></img>
                                 </div>
                                 <div className="bg-gray-50 -mt-2">
                                     <div className="mt-2 p-2 mx-2 ">
                                         <div className="description flex items-center justify-between">
                                             <div className="font-bold text-xl">
-                                                Patients Visits Manager
+                                                Financials Automator
                                             </div>
                                             <div className="explore ">
                                                 <svg
