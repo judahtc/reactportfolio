@@ -314,18 +314,20 @@ export default function Work() {
                                         <hr className="mb-2"></hr>
                                         <div className="summary">
                                             <p>
-                                                The Patients Visits Manager is a
-                                                system designed to verify and
-                                                manage authorized visitors for
-                                                patients. The system is by
-                                                Admins and Security personnel,
-                                                with patients also able to log
-                                                in and proactively authorize
-                                                visitors. Security can verify
-                                                the visitor’s identity using
-                                                their National ID and check
-                                                against the patient's
-                                                pre-authorized visitor list.
+                                                Residential Gate Entry System is
+                                                a system that allows Gated
+                                                communities to book gate entry
+                                                access for their visitors. A
+                                                resident has access to create a
+                                                booking for a visitor, a visitor
+                                                then recieves a QR Code that
+                                                will be presented to the
+                                                residential gate security for
+                                                authentication. If
+                                                Authenticated, the security will
+                                                then give entry access to the
+                                                visitor whether automatically or
+                                                manually.
                                             </p>
                                         </div>
                                     </div>
