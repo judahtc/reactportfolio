@@ -1,3 +1,4 @@
+import squarepic from "/src/assets/images/squarepic.png";
 export default function HeroSection() {
     const globalStyle = {
         fontFamily:
@@ -13,7 +14,7 @@ export default function HeroSection() {
                     <div>
                         <img
                             className="opacity-30 h-20  w-20 -mb-16 -ml-8"
-                            src="\src\assets\images\squarepic.png"
+                            src={squarepic}
                         ></img>
                     </div>
 

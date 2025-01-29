@@ -1,3 +1,6 @@
+import patients_visitor from "/src/assets/images/patients_visitor.jpg";
+import gate from "/src/assets/images/gate.png";
+import finance from "srcassetsimages\finance.png";
 import { useEffect } from "react";
 
 export default function Work() {
@@ -49,7 +52,7 @@ export default function Work() {
                             <div>
                                 <img
                                     className="rounded-tl-lg rounded-tr-lg"
-                                    src="\src\assets\images\patients_visitor.jpg"
+                                    src={patients_visitor}
                                 ></img>
                             </div>
                             <div className="bg-gray-50 -mt-2">
@@ -192,7 +195,7 @@ export default function Work() {
                                 <div>
                                     <img
                                         className="rounded-tl-lg rounded-tr-lg"
-                                        src="\src\assets\images\gate.png"
+                                        src={gate}
                                     ></img>
                                 </div>
                                 <div className="bg-gray-50 -mt-2">
@@ -337,7 +340,7 @@ export default function Work() {
                                 <div>
                                     <img
                                         className="rounded-tl-lg rounded-tr-lg"
-                                        src="\src\assets\images\finance.png"
+                                        src={finance}
                                     ></img>
                                 </div>
                                 <div className="bg-gray-50 -mt-2">

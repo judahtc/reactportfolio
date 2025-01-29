@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import nodejslambda3 from "/src/assets/images/nodejslambda3.png";
 export default function Articles() {
     const article1 = () => {
         // Navigate to the desired URL
@@ -71,7 +71,7 @@ export default function Articles() {
                         <div className="articles ">
                             <div className="one  border border-gray-200  py-4  px-4  rounded-lg flex flex-col items-center">
                                 <div className="">
-                                    <img src="\src\assets\images\nodejs-lambda3.png"></img>
+                                    <img src={nodejslambda3}></img>
                                 </div>
                                 <div className="bg-gray-50 px-4 py-4 rounded-md">
                                     <p
