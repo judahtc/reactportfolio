@@ -457,18 +457,18 @@ export default function Work() {
                                         <hr className="mb-2"></hr>
                                         <div className="summary">
                                             <p>
-                                                The Patients Visits Manager is a
-                                                system designed to verify and
-                                                manage authorized visitors for
-                                                patients. The system is by
-                                                Admins and Security personnel,
-                                                with patients also able to log
-                                                in and proactively authorize
-                                                visitors. Security can verify
-                                                the visitor’s identity using
-                                                their National ID and check
-                                                against the patient's
-                                                pre-authorized visitor list.
+                                                Financials Automator is a system
+                                                designed to easy the work of
+                                                finance and accounting
+                                                personale, by actively reading
+                                                data from their administrative
+                                                systems and create reports as
+                                                well as financial statements,
+                                                including and not limited to the
+                                                Balance Sheet, Trial Balance,
+                                                Income Statement and the Profit
+                                                and Loss. It is a SAAS that is
+                                                accessible securely on AWS Cloud
                                             </p>
                                         </div>
                                     </div>
