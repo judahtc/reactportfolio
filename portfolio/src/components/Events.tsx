@@ -25,8 +25,8 @@ export default function Events() {
     }, []); // Empty dependency array ensures this effect runs only once
 
     return (
-        <div className=" text-gray-700">
-            <div className="flex space-x-8 md:mx-32 lg:mx-32 mx-8 mt-8 rounded-md shadow-sm ">
+        <div className=" hidden lg:block md:block text-gray-700">
+            <div className="flex lg:flex-row md:flex-row flex-col space-x-8 md:mx-32 lg:mx-32 mx-8 mt-8 rounded-md shadow-sm ">
                 <img
                     className="rounded-s-lg"
                     style={{ height: "20rem", width: "20rem" }}
