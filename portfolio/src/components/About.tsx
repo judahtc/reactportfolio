@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import judahimage2 from "/src/assets/images/judahimage2.jpg";
 export default function About() {
     const [readMore, setReadMore] = useState(true);
 
@@ -101,7 +101,7 @@ export default function About() {
                     <div className="flex justify-center items-center mt-5 md:hidden lg:hidden">
                         <div className="mx-auto ">
                             <img
-                                src="\src\assets\images\judahimage2.jpg"
+                                src={judahimage2}
                                 alt="me"
                                 className="circular-image-1"
                             />
