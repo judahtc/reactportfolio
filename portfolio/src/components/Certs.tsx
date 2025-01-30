@@ -1,15 +1,15 @@
 export default function Certs() {
     return (
         <>
-            <div className=" lg:mx-60 lg:mt-20 md:mx-60 md:mt-20  ml-10  mt-20">
-                <div className="mb-8"></div>
+            <div className=" lg:mx-60 lg:mt-20 md:mx-60 md:mt-20  lg:ml-10 md:ml-10  mt-20">
+                <div className=""></div>
                 <p className="font-bold lg:text-5xl md:text-5xl text-2xl text-center mx-auto text-gray-600">
                     🏅 Certifications
                 </p>
                 <div className="mb-16"></div>
 
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9">
-                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12  relative">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9 mx-4">
+                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 lg:w-11/12  w-full  relative">
                         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
                             <svg
                                 viewBox="0 0 300.7 179.8"
@@ -80,7 +80,7 @@ export default function Certs() {
                             </a>
                         </div>
                     </div>
-                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
+                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 lg:w-11/12  w-full relative">
                         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
                             <svg
                                 viewBox="0 0 300.7 179.8"
@@ -149,7 +149,7 @@ export default function Certs() {
                         </div>
                     </div>
 
-                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
+                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 lg:w-11/12  w-full relative">
                         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
                             <svg
                                 viewBox="0 0 300.7 179.8"
@@ -217,7 +217,7 @@ export default function Certs() {
                             </a>
                         </div>
                     </div>
-                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 w-11/12 relative">
+                    <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 lg:w-11/12  w-full relative">
                         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
                             <svg
                                 width="40"
