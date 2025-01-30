@@ -16,8 +16,8 @@ const MovingSkills = () => {
                 <div className="grid grid-cols-3 lg:grid-cols-8 md:grid-cols-6 gap-x-12 gap-y-6 ">
                     <div className="aws flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             viewBox="0 0 128 128"
                             xmlns="http://www.w3.org/2000/svg"
                         >
@@ -35,8 +35,8 @@ const MovingSkills = () => {
 
                     <div className="react  flex flex-col items-center ">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -50,8 +50,8 @@ const MovingSkills = () => {
 
                     <div className="Angular flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -81,8 +81,8 @@ const MovingSkills = () => {
 
                     <div className="SpringBoot flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -96,8 +96,8 @@ const MovingSkills = () => {
 
                     <div className="Postgres flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -116,8 +116,8 @@ const MovingSkills = () => {
                     </div>
                     <div className="fastapi flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -131,8 +131,8 @@ const MovingSkills = () => {
 
                     <div className="nodejs flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -147,8 +147,8 @@ const MovingSkills = () => {
                     <div className="Databricks flex flex-col items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             viewBox="0 0 128 128"
                         >
                             <path
