@@ -8,12 +8,12 @@ export default function HeroSection() {
         <>
             <div className="">
                 <div
-                    className="ml-10 mt-24  lg:ml-28 lg:mt-32 md:ml-28 md:mt-32"
+                    className="ml-6 mt-24  lg:ml-28 lg:mt-32 md:ml-28 md:mt-32"
                     style={globalStyle}
                 >
                     <div>
                         <img
-                            className="opacity-30 h-20  w-20 -mb-16 -ml-8"
+                            className="opacity-30 h-20  w-20 lg:-mb-16 lg:-ml-8 -ml-4 -mb-12"
                             src={squarepic}
                         ></img>
                     </div>

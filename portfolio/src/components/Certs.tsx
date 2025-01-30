@@ -8,7 +8,7 @@ export default function Certs() {
                 </p>
                 <div className="mb-16"></div>
 
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9 mx-4">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2 items-start mt-10 gap-y-9 mx-4 lg:mx-0 md:mx-0">
                     <div className="cert border hover:bg-gray-50 border-gray-200 rounded-md px-4 py-3 flex items-center space-x-2 lg:w-11/12  w-full  relative">
                         <div className="bg-slate-100 p-3 rounded-[0.25rem]">
                             <svg
