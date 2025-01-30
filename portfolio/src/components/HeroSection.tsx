@@ -13,7 +13,7 @@ export default function HeroSection() {
                 >
                     <div>
                         <img
-                            className="opacity-30 h-20  w-20 lg:-mb-16 lg:-ml-8 -ml-4 -mb-12"
+                            className="opacity-30 lg:h-20  lg:w-20 h-12 w-12 lg:-mb-16 lg:-ml-8 -ml-4 -mb-11"
                             src={squarepic}
                         ></img>
                     </div>

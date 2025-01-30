@@ -45,7 +45,7 @@ function App() {
             <div className="fixed w-full z-50">
                 <NavBar></NavBar>
             </div>
-            <div className="flex items-center shadow-sm pb-32">
+            <div className="flex items-center shadow-sm lg:pb-32 pb-12">
                 <HeroSection />
                 <div className="hidden lg:block md:block">
                     <SkillsPic />
