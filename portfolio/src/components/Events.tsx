@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-
+import amazong from "/src/assets/images/amazong.jpg";
+import indabax from "/src/assets/images/indabax.jpg";
 export default function Events() {
     useEffect(() => {
         const animatedTextOne = document.getElementById("one");
@@ -30,7 +31,7 @@ export default function Events() {
                 <img
                     className="rounded-s-lg"
                     style={{ height: "20rem", width: "20rem" }}
-                    src="\src\assets\images\indabax.jpg"
+                    src={indabax}
                 ></img>
                 <div>
                     <div className=" pt-5 lg:pt-16 md:pt-16">
@@ -66,7 +67,7 @@ export default function Events() {
 
                 <img
                     className="rounded-e-lg h-80 w-48 md:h-80 lg:h-80 lg:w-80 md:w-80"
-                    src="\src\assets\images\amazong.jpg"
+                    src={amazong}
                 ></img>
             </div>
         </div>
