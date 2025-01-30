@@ -1,6 +1,6 @@
 import patients_visitor from "/src/assets/images/patients_visitor.jpg";
 import gate from "/src/assets/images/gate.png";
-import finance from "srcassetsimages\finance.png";
+import finance from "/src/assets/images/finance.png";
 import { useEffect } from "react";
 
 export default function Work() {
