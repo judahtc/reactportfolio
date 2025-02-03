@@ -40,7 +40,17 @@ export default function HeroSection() {
                             <span>🚀</span>{" "}
                             <span>
                                 Majoring in Enterprise Systems Development
-                                (FastAPI+ (React/Angular))
+                                <span className="text-gray-500">
+                                    <span className="text-red-400">(</span>
+                                    <span className="text-yellow-500">
+                                        (Django/Flask/FastAPI)
+                                    </span>
+                                    +{" "}
+                                    <span className="text-blue-500">
+                                        (React/Angular)
+                                    </span>
+                                    <span className="text-red-400">)</span>
+                                </span>
                             </span>
                         </div>
                     </p>
