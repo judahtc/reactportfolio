@@ -97,7 +97,7 @@ export default function NavBar() {
                             </span>
                         </a>
                         <a href="#">
-                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md">
+                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Blog
                             </span>
                         </a>
