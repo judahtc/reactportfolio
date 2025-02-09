@@ -143,7 +143,7 @@ export default function NavBar() {
                     <hr className="my-5"></hr>
                     <div className="block lg:hidden md:hidden font-bold">
                         <div className="nav-items flex flex-col md:font-bold text space-y-5">
-                            <span>Home</span>
+                            <span className="cursor-pointer">Home</span>
 
                             <span>Blog</span>
                             <span>Projects</span>
