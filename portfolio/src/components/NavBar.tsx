@@ -145,7 +145,7 @@ export default function NavBar() {
                         <div className="nav-items flex flex-col md:font-bold text space-y-5">
                             <span className="cursor-pointer">Home</span>
 
-                            <span>Blog</span>
+                            <span className="cursor-pointer">Blog</span>
                             <span>Projects</span>
                         </div>
                     </div>
