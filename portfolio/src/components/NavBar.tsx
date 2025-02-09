@@ -146,7 +146,7 @@ export default function NavBar() {
                             <span className="cursor-pointer">Home</span>
 
                             <span className="cursor-pointer">Blog</span>
-                            <span>Projects</span>
+                            <span className="cursor-pointer">Projects</span>
                         </div>
                     </div>
                 </div>
