@@ -92,7 +92,7 @@ export default function NavBar() {
                     <div className="nav-items  lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
                         <a href="#">
                             {" "}
-                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md">
+                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Home
                             </span>
                         </a>
