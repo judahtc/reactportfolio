@@ -15,6 +15,10 @@ const router = [
         path: "/",
     },
     {
+        element: <App />,
+        path: "/portfolio",
+    },
+    {
         element: <MovingSkills />,
         path: "/tools",
     },

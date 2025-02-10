@@ -44,6 +44,14 @@ body {
         transform: translateX(-1%); /* End off-screen to the left */
     }
 }
+@keyframes slideRightToLeftSideBar {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(-1%); /* End off-screen to the left */
+    }
+}
 
 @keyframes blink {
     0% {
@@ -72,6 +80,20 @@ body {
     height: 300px; /* Make height and width equal for a perfect circle */
     object-fit: cover; /* Ensures the content fits the shape */
     border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden;
+}
+.circular-image-1 {
+    width: 200px; /* Set the diameter of the circle */
+    height: 200px; /* Make height and width equal for a perfect circle */
+    object-fit: cover; /* Ensures the content fits the shape */
+    border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden;
+}
+.circular-image-dc {
+    width: 120px; /* Set the diameter of the circle */
+    height: 120px; /* Make height and width equal for a perfect circle */
+    object-fit: cover; /* Ensures the content fits the shape */
+    border-radius: 5%; /* Creates a circular shape */
     overflow: hidden;
 }
 
@@ -156,5 +178,8 @@ body {
 
     .myself {
         animation: slideRightToLeft 2s linear; /* Animation properties */
+    }
+    .slideNav {
+        animation: slideRightToLeftSideBar 240ms linear; /* Animation properties */
     }
 }

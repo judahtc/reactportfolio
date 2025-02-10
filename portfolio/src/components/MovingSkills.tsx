@@ -1,9 +1,9 @@
 const MovingSkills = () => {
     return (
-        <div className="bg-gray-50 py-36 text-gray-400 mt-24 shadow-sm ">
-            <div className="mx-auto w-3/4 container flex flex-col items-center space-y-16">
+        <div className="px-4 lg:px-0  bg-gray-50 md:py-36 md:mt-24 lg:py-36 lg:mt-24 py-20 mt-24 text-gray-400  shadow-sm w-[99%]">
+            <div className="mx-auto lg:w-3/4 md:w-3/4 container flex flex-col items-center space-y-16">
                 <div className="flex flex-col items-center">
-                    <span className=" text-4xl mb-3 -mt-6">
+                    <span className=" lg:text-4xl md:text-4xl text-xl mb-3 -mt-6">
                         Some of the tools l use
                     </span>
                     <div>
@@ -13,11 +13,11 @@ const MovingSkills = () => {
                     </div>
                 </div>
 
-                <div className="flex space-x-12">
+                <div className="grid grid-cols-3 lg:grid-cols-8 md:grid-cols-6 gap-x-12 gap-y-6 ">
                     <div className="aws flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             viewBox="0 0 128 128"
                             xmlns="http://www.w3.org/2000/svg"
                         >
@@ -35,8 +35,8 @@ const MovingSkills = () => {
 
                     <div className="react  flex flex-col items-center ">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -50,8 +50,8 @@ const MovingSkills = () => {
 
                     <div className="Angular flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -81,8 +81,8 @@ const MovingSkills = () => {
 
                     <div className="SpringBoot flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -96,8 +96,8 @@ const MovingSkills = () => {
 
                     <div className="Postgres flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -114,10 +114,24 @@ const MovingSkills = () => {
                         </svg>
                         Postgres
                     </div>
+                    <div className="django flex flex-col items-center">
+                        <svg
+                            version="1.0"
+                            width="80"
+                            height="80"
+                            viewBox="0 0 128 128"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#092e20"
+                        >
+                            <path d="M59.448 0h20.93v96.88c-10.737 2.04-18.62 2.855-27.181 2.855-25.551-.001-38.87-11.551-38.87-33.705 0-21.338 14.135-35.2 36.015-35.2 3.398 0 5.98.272 9.106 1.087zm0 48.765c-2.446-.815-4.485-1.086-7.067-1.086-10.6 0-16.717 6.523-16.717 17.939 0 11.145 5.845 17.26 16.582 17.26 2.309 0 4.212-.136 7.202-.542z" />
+                            <path d="M113.672 32.321V80.84c0 16.717-1.224 24.735-4.893 31.666-3.398 6.661-7.883 10.873-17.124 15.494l-19.435-9.241c9.242-4.35 13.726-8.153 16.58-14 2.99-5.979 3.943-12.91 3.943-31.122V32.321zM92.742.111h20.93v21.474h-20.93z" />
+                        </svg>
+                        Django
+                    </div>
                     <div className="fastapi flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -131,8 +145,8 @@ const MovingSkills = () => {
 
                     <div className="nodejs flex flex-col items-center">
                         <svg
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
                         >
@@ -147,8 +161,8 @@ const MovingSkills = () => {
                     <div className="Databricks flex flex-col items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             viewBox="0 0 128 128"
                         >
                             <path

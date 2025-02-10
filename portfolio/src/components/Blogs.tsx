@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import nodejslambda3 from "/src/assets/images/nodejslambda3.png";
-export default function Articles() {
+
+export default function Blogs() {
     const article1 = () => {
         // Navigate to the desired URL
         window.open(

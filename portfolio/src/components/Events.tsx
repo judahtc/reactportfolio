@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-
+import amazong from "/src/assets/images/amazong.jpg";
+import indabax from "/src/assets/images/indabax.jpg";
 export default function Events() {
     useEffect(() => {
         const animatedTextOne = document.getElementById("one");
@@ -25,15 +26,15 @@ export default function Events() {
     }, []); // Empty dependency array ensures this effect runs only once
 
     return (
-        <div className=" text-gray-700">
-            <div className="flex space-x-8 mx-32 mt-8 rounded-md shadow-sm ">
+        <div className=" hidden lg:block md:block text-gray-700">
+            <div className="flex lg:flex-row md:flex-row flex-col space-x-8 md:mx-32 lg:mx-32 mx-8 mt-8 rounded-md shadow-sm ">
                 <img
                     className="rounded-s-lg"
                     style={{ height: "20rem", width: "20rem" }}
-                    src="\src\assets\images\indabax.jpg"
+                    src={indabax}
                 ></img>
                 <div>
-                    <div className=" pt-16">
+                    <div className=" pt-5 lg:pt-16 md:pt-16">
                         <div className="font-semibold text-2xl">
                             INDABA X SOUTH AFRICA 2024
                         </div>
@@ -47,14 +48,14 @@ export default function Events() {
                     </div>
                 </div>
             </div>
-            <div className="flex space-x-8 mx-32 mt-8 rounded-md shadow-sm  pl-8">
+            <div className="flex  space-x-8 lg:mx-32 md:mx-32 mx-8 md:mt-8 lg:mt-8 mt-20 rounded-md shadow-sm  pl-8">
                 <div>
-                    <div className=" pt-16">
+                    <div className=" pt-5 lg:pt-16 md:pt-16">
                         <div className="font-semibold text-2xl">
                             AMAZON Q WORKSHOP
                         </div>
 
-                        <div className="content">
+                        <div className="text-base">
                             In November 2024, l co-presented on the significance
                             of utilizing AWS' Amazon Q for Developers. I also
                             presented on how to use bucket replication for
@@ -65,9 +66,8 @@ export default function Events() {
                 </div>
 
                 <img
-                    className="rounded-e-lg"
-                    style={{ height: "20rem", width: "14rem" }}
-                    src="\src\assets\images\amazong.jpg"
+                    className="rounded-e-lg h-80 w-48 md:h-80 lg:h-80 lg:w-80 md:w-80"
+                    src={amazong}
                 ></img>
             </div>
         </div>

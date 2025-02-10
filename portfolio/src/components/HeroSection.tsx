@@ -1,3 +1,4 @@
+import squarepic from "/src/assets/images/squarepic.png";
 export default function HeroSection() {
     const globalStyle = {
         fontFamily:
@@ -7,13 +8,13 @@ export default function HeroSection() {
         <>
             <div className="">
                 <div
-                    className="ml-10 mt-24  lg:ml-28 lg:mt-32 md:ml-28 md:mt-32"
+                    className="ml-6 mt-24  lg:ml-28 lg:mt-32 md:ml-28 md:mt-32"
                     style={globalStyle}
                 >
                     <div>
                         <img
-                            className="opacity-30 h-20  w-20 -mb-16 -ml-8"
-                            src="\src\assets\images\squarepic.png"
+                            className="opacity-30 lg:h-20  lg:w-20 h-12 w-12 lg:-mb-16 lg:-ml-8 -ml-4 -mb-11"
+                            src={squarepic}
                         ></img>
                     </div>
 
@@ -35,24 +36,49 @@ export default function HeroSection() {
 
                     <p className="mt-7 text-base ">
                         {" "}
-                        🚀 Majoring in Enterprise Systems Development (FastAPI+
-                        (React/Angular))
+                        <div className="flex space-x-1 items-start">
+                            <span>🚀</span>{" "}
+                            <span>
+                                Majoring in Enterprise Systems Development
+                                <span className="text-gray-500">
+                                    <span className="text-red-400">(</span>
+                                    <span className="text-yellow-500">
+                                        (Django/Flask/FastAPI)
+                                    </span>
+                                    +{" "}
+                                    <span className="text-blue-500">
+                                        (React/Angular)
+                                    </span>
+                                    <span className="text-red-400">)</span>
+                                </span>
+                            </span>
+                        </div>
                     </p>
                     <p className="mt-2 text-base">
                         {" "}
-                        🌐 AWS specialist and technical blogger
+                        <div className="flex space-x-1 items-start">
+                            <span>🌐</span>
+                            <span> AWS specialist and technical blogger</span>
+                        </div>
                     </p>
                     <p className="mt-2 text-base">
                         {" "}
-                        ⚡ Senior Software Engineer at{" "}
-                        <a
-                            className="text-blue-600"
-                            href="https://claxonactuaries.com/"
-                            target="_blank"
-                        >
-                            Claxon Actuaries
-                        </a>
-                        .
+                        <div className="flex space-x-1 items-start">
+                            {" "}
+                            <span>⚡</span>
+                            <span>
+                                {" "}
+                                Senior Software Engineer at{" "}
+                                <a
+                                    className="text-blue-600"
+                                    href="https://claxonactuaries.com/"
+                                    target="_blank"
+                                >
+                                    Claxon Actuaries
+                                </a>
+                                .
+                            </span>
+                        </div>
                     </p>
 
                     <div className=" flex items-center space-x-2  mt-6 font-bold">
