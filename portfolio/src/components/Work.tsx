@@ -29,7 +29,10 @@ export default function Work() {
 
     return (
         <>
-            <div className="lg:mx-28 md:mx-28 mt-40 text-gray-700 " id="one">
+            <div
+                className="lg:mx-28 md:mx-28 mt-40 text-gray-700 mx-0 w-full overflow-hidden"
+                id="one"
+            >
                 <div>
                     <div className="lg:-mb-32 md:-mb-32 md:mx-0 lg:mx-0 mx-5">
                         <div className="font-bold lg:text-3xl md:text-3xl">
