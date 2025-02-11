@@ -144,10 +144,28 @@ export default function NavBar() {
                     <hr className="my-5"></hr>
                     <div className="block lg:hidden md:hidden font-bold">
                         <div className="nav-items flex flex-col md:font-bold text space-y-5">
-                            <span className="cursor-pointer">Home</span>
+                            <NavLink
+                                onClick={toggleFunc}
+                                to="/"
+                                className="cursor-pointer"
+                            >
+                                Home
+                            </NavLink>
 
-                            <span className="cursor-pointer">Blog</span>
-                            <span className="cursor-pointer">Projects</span>
+                            <NavLink
+                                onClick={toggleFunc}
+                                to="/"
+                                className="cursor-pointer"
+                            >
+                                Blog
+                            </NavLink>
+                            <NavLink
+                                onClick={toggleFunc}
+                                to="/projects"
+                                className="cursor-pointer"
+                            >
+                                Projects
+                            </NavLink>
                         </div>
                     </div>
                 </div>

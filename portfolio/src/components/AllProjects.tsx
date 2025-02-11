@@ -20,12 +20,6 @@ export function Allprojects() {
                                     Here's some of my projects that I have
                                     worked on.
                                 </div>
-                                <a
-                                    href=""
-                                    className="text-green-500 font-semibold lg:text-lg md:text-lg text-base"
-                                >
-                                    Explore more →
-                                </a>
                             </div>
 
                             <div className="flex lg:flex-row md:flex-row flex-col items-center mt-5 w-full lg:space-x-12 md:space-x-12 space-x-0 lg:mx-0 space-y-9 md:space-y-0 lg:space-y-0">
