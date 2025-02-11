@@ -10,8 +10,8 @@ export default function NavBar() {
         SetToggle(!toggle);
     }
     return (
-        <div className="navbar bg-gray-50 relative">
-            <div className="  text-gray-700 flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full font-bold">
+        <div className="navbar bg-gray-50 relative shadow-neutral-200">
+            <div className="  text-gray-500 flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full font-bold">
                 <div className="font-bold text-2xl">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function NavBar() {
                             cy="100"
                             r="85"
                             fill="none"
-                            stroke="#374151"
+                            stroke="#6B7280"
                             stroke-width="6"
                         />
 
@@ -61,7 +61,7 @@ export default function NavBar() {
                             font-family="Arial, sans-serif"
                             font-size="64"
                             font-weight="bold"
-                            fill="#374151"
+                            fill="#6B7280"
                         >
                             {me}
                         </text>
@@ -92,17 +92,17 @@ export default function NavBar() {
                     <div className="nav-items  lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
                         <a href="#">
                             {" "}
-                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
+                            <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Home
                             </span>
                         </a>
                         <a href="#">
-                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
+                            <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Blog
                             </span>
                         </a>
                         <a href="#">
-                            <span className="hover:bg-zinc-400 px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
+                            <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Projects
                             </span>
                         </a>
