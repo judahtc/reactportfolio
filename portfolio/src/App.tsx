@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import "./App.css";
 import About from "./components/About";
-// import Articles from "./components/Articles";
+import Articles from "./components/Articles";
 import Certs from "./components/Certs";
 import Devider from "./components/Divider";
 // import Events from "./components/Events";
 import Experties from "./components/Experties";
 // import Footer from "./components/Footer";
 
-// import MovingSkills from "./components/MovingSkills";
+import MovingSkills from "./components/MovingSkills";
 import MyPic from "./components/MyPic";
 
 // import Work from "./components/Work";
@@ -62,6 +62,9 @@ function App() {
 
             <Certs />
             <Experties />
+            <Articles />
+            <MovingSkills />
+
             {/* 
            
 
@@ -69,9 +72,8 @@ function App() {
 
            
 
-            <Articles />
+           
 
-            <MovingSkills />
             <Work />
             <Devider />
             <Events />
