@@ -97,7 +97,10 @@ export default function NavBar() {
                                 Home
                             </span>
                         </NavLink>
-                        <a href="#">
+                        <a
+                            target="_blank"
+                            href="https://awsfordevelopers.hashnode.dev/"
+                        >
                             <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Blog
                             </span>
@@ -154,7 +157,8 @@ export default function NavBar() {
 
                             <NavLink
                                 onClick={toggleFunc}
-                                to="/"
+                                target="_blank"
+                                to="https://awsfordevelopers.hashnode.dev/"
                                 className="cursor-pointer"
                             >
                                 Blog

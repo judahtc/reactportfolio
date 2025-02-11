@@ -8,7 +8,7 @@ export default function HeroSection() {
         <>
             <div className="">
                 <div
-                    className="ml-6 mt-24  lg:ml-28 lg:mt-32 md:ml-28 md:mt-32"
+                    className="ml-6 mt-12  lg:ml-28 lg:mt-12 md:ml-28 md:mt-32"
                     style={globalStyle}
                 >
                     <div>
