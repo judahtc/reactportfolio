@@ -1,20 +1,9 @@
 import { useEffect } from "react";
 import "./App.css";
-import About from "./components/About";
-import Articles from "./components/Articles";
-import Certs from "./components/Certs";
-import Devider from "./components/Divider";
-import Events from "./components/Events";
-import Experties from "./components/Experties";
-import Footer from "./components/Footer";
 
-import MovingSkills from "./components/MovingSkills";
-import MyPic from "./components/MyPic";
-
-import Work from "./components/Work";
 import NavBar from "./components/NavBar";
-import HeroSection from "./components/HeroSection";
-import SkillsPic from "./components/SkillsPic";
+// import { Outdent } from "lucide-react";
+import { Outlet } from "react-router-dom";
 
 function App() {
     useEffect(() => {
@@ -42,33 +31,15 @@ function App() {
 
     return (
         <>
-            <div className="fixed w-full z-50">
-                <NavBar></NavBar>
-            </div>
-            <div className="flex items-center shadow-sm lg:pb-32 pb-12">
-                <HeroSection />
-                <div className="hidden lg:block md:block">
-                    <SkillsPic />
+            <div className="relative ">
+                <div className="  ">
+                    <NavBar></NavBar>
+                </div>
+
+                <div className="relative top-20 ">
+                    <Outlet />
                 </div>
             </div>
-
-            <div className="flex items-center">
-                <About />
-                <div className="hidden lg:block md:block">
-                    <MyPic />
-                </div>
-            </div>
-            <Devider />
-
-            <Certs />
-            <Experties />
-            <Articles />
-            <MovingSkills />
-            <Work />
-
-            <Devider />
-            <Events />
-            <Footer />
         </>
     );
 }

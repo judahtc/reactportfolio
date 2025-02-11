@@ -3,6 +3,9 @@ import Skills from "./components/Skills";
 import App from "./App";
 import MovingSkills from "./components/MovingSkills";
 import Events from "./components/Events";
+import Home from "./components/Home";
+import { Allprojects } from "./components/AllProjects";
+// import path from "path";
 
 const router = [
     {
@@ -13,6 +16,17 @@ const router = [
     {
         element: <App />,
         path: "/",
+        children: [
+            {
+                element: <Home />,
+                path: "",
+            },
+
+            {
+                element: <Allprojects />,
+                path: "/projects",
+            },
+        ],
     },
     {
         element: <App />,

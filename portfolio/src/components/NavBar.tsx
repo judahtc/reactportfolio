@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 export default function NavBar() {
     const me = "{JC}";
@@ -10,7 +11,7 @@ export default function NavBar() {
         SetToggle(!toggle);
     }
     return (
-        <div className="navbar bg-gray-50 relative shadow-neutral-200">
+        <div className="navbar bg-gray-50 w-full z-50 shadow-neutral-200 fixed">
             <div className="  text-gray-500 flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full font-bold">
                 <div className="font-bold text-2xl">
                     <svg
@@ -90,22 +91,22 @@ export default function NavBar() {
                 </div>
                 <div className="hidden lg:block md:block">
                     <div className="nav-items  lg:space-x-5 lg:flex-row lg:font-bold md:space-x-5 md:flex-row md:font-bold text">
-                        <a href="#">
+                        <NavLink to="/">
                             {" "}
                             <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Home
                             </span>
-                        </a>
+                        </NavLink>
                         <a href="#">
                             <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Blog
                             </span>
                         </a>
-                        <a href="#">
+                        <Link to="/projects">
                             <span className="hover:bg-white px-2  pt-[0.4rem] pb-[0.5rem] rounded-md hover:cursor-pointer">
                                 Projects
                             </span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

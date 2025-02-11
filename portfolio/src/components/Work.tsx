@@ -30,7 +30,7 @@ export default function Work() {
     return (
         <>
             <div
-                className="lg:mx-28 md:mx-28 mt-40 text-gray-700 mx-0 w-full overflow-hidden"
+                className="lg:mx-28 md:mx-28 mt-40 text-gray-700 mx-0  overflow-hidden"
                 id="one"
             >
                 <div>
