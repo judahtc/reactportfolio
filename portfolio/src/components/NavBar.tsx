@@ -111,7 +111,7 @@ export default function NavBar() {
             </div>
 
             {toggle && (
-                <div className="text-white px-4 pb-3 absolute top-0 lg:hidden block  md:hidden right-0 w-80 h-[35rem] bg-gray-400 rounded-bl-xl slideNav">
+                <div className="text-white px-4 pb-3 absolute top-0 lg:hidden block  md:hidden right-0 w-80 h-[50rem] bg-black rounded-bl-xl slideNav">
                     <div className="flex items-center justify-between mt-5">
                         <div className="font-bold">{me1}</div>
                         <div className="cursor-pointer" onClick={toggleFunc}>
