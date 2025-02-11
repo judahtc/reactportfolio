@@ -4,9 +4,9 @@ import About from "./components/About";
 import Articles from "./components/Articles";
 import Certs from "./components/Certs";
 import Devider from "./components/Divider";
-// import Events from "./components/Events";
+import Events from "./components/Events";
 import Experties from "./components/Experties";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 import MovingSkills from "./components/MovingSkills";
 import MyPic from "./components/MyPic";
@@ -66,18 +66,9 @@ function App() {
             <MovingSkills />
             <Work />
 
-            {/* 
-           
-
-           
-
-           
-
-           
-
             <Devider />
             <Events />
-            <Footer /> */}
+            <Footer />
         </>
     );
 }
