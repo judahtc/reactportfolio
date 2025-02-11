@@ -11,7 +11,7 @@ import Experties from "./components/Experties";
 import MovingSkills from "./components/MovingSkills";
 import MyPic from "./components/MyPic";
 
-// import Work from "./components/Work";
+import Work from "./components/Work";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import SkillsPic from "./components/SkillsPic";
@@ -64,6 +64,7 @@ function App() {
             <Experties />
             <Articles />
             <MovingSkills />
+            <Work />
 
             {/* 
            
@@ -74,7 +75,6 @@ function App() {
 
            
 
-            <Work />
             <Devider />
             <Events />
             <Footer /> */}
