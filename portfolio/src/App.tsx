@@ -1,20 +1,20 @@
 import { useEffect } from "react";
 import "./App.css";
-import About from "./components/About";
-import Articles from "./components/Articles";
-import Certs from "./components/Certs";
-import Devider from "./components/Divider";
-import Events from "./components/Events";
-import Experties from "./components/Experties";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import MovingSkills from "./components/MovingSkills";
-import MyPic from "./components/MyPic";
+// import About from "./components/About";
+// import Articles from "./components/Articles";
+// import Certs from "./components/Certs";
+// import Devider from "./components/Divider";
+// import Events from "./components/Events";
+// import Experties from "./components/Experties";
+// import Footer from "./components/Footer";
+
+// import MovingSkills from "./components/MovingSkills";
+// import MyPic from "./components/MyPic";
+
+// import Work from "./components/Work";
 import NavBar from "./components/NavBar";
-
+import HeroSection from "./components/HeroSection";
 import SkillsPic from "./components/SkillsPic";
-
-import Work from "./components/Work";
 
 function App() {
     useEffect(() => {
@@ -51,7 +51,7 @@ function App() {
                     <SkillsPic />
                 </div>
             </div>
-
+            {/* 
             <div className="flex items-center">
                 <About />
                 <div className="hidden lg:block md:block">
@@ -71,7 +71,7 @@ function App() {
             <Work />
             <Devider />
             <Events />
-            <Footer />
+            <Footer /> */}
         </>
     );
 }
