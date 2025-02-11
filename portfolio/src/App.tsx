@@ -5,7 +5,7 @@ import About from "./components/About";
 import Certs from "./components/Certs";
 import Devider from "./components/Divider";
 // import Events from "./components/Events";
-// import Experties from "./components/Experties";
+import Experties from "./components/Experties";
 // import Footer from "./components/Footer";
 
 // import MovingSkills from "./components/MovingSkills";
@@ -61,12 +61,13 @@ function App() {
             <Devider />
 
             <Certs />
+            <Experties />
             {/* 
            
 
            
 
-            <Experties />
+           
 
             <Articles />
 
