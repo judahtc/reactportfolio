@@ -10,8 +10,8 @@ export default function NavBar() {
         SetToggle(!toggle);
     }
     return (
-        <div className="navbar bg-gray-500 relative">
-            <div className="  text-white flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full font-bold">
+        <div className="navbar bg-gray-50 relative">
+            <div className="  text-gray-700 flex items-center justify-between py-3 lg:px-24 md:px-24 px-2 w-full font-bold">
                 <div className="font-bold text-2xl">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function NavBar() {
                             cy="100"
                             r="85"
                             fill="none"
-                            stroke="#ffffff"
+                            stroke="#374151"
                             stroke-width="6"
                         />
 
@@ -61,7 +61,7 @@ export default function NavBar() {
                             font-family="Arial, sans-serif"
                             font-size="64"
                             font-weight="bold"
-                            fill="#ffffff"
+                            fill="#374151"
                         >
                             {me}
                         </text>
