@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
-// import About from "./components/About";
+import About from "./components/About";
 // import Articles from "./components/Articles";
 // import Certs from "./components/Certs";
 // import Devider from "./components/Divider";
@@ -9,7 +9,7 @@ import "./App.css";
 // import Footer from "./components/Footer";
 
 // import MovingSkills from "./components/MovingSkills";
-// import MyPic from "./components/MyPic";
+import MyPic from "./components/MyPic";
 
 // import Work from "./components/Work";
 import NavBar from "./components/NavBar";
@@ -51,13 +51,15 @@ function App() {
                     <SkillsPic />
                 </div>
             </div>
-            {/* 
+
             <div className="flex items-center">
                 <About />
                 <div className="hidden lg:block md:block">
                     <MyPic />
                 </div>
             </div>
+            {/* 
+           
 
             <Devider />
 
